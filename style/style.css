@@ -178,35 +178,35 @@ ul {
     text-align: center;
 }
 
-.items__grid .item__1 {
+.items__grid .item__watch {
     background: url(../img/watch-brace.jpg) no-repeat center center / cover;
     height: 580px;
     width: 100%;
 }
 
-.items__grid .item__2 {
+.items__grid .item__studio {
     background: url(../img/apple-tv.jpg) no-repeat center center / cover;
     height: 580px;
     width: 100%;
 }
 
-.items__grid .item__3 {
+.items__grid .item__album {
     background: url(../img/sky.jpg) no-repeat center center / cover;
     height: 580px;
     width: 100%;
 }
-.items__grid .item__4 {
+.items__grid .item__airpods {
     background: url(../img/airpods.jpg) no-repeat center bottom;
     height: 580px;
     width: 100%;
 }
 
-.items__grid .item__5 {
+.items__grid .item__night {
     background: url(../img/ipad.jpg) no-repeat center center / cover;
     height: 580px;
     width: 100%;
 }
-.items__grid .item__6 {
+.items__grid .item__ipad {
     background: url(../img/apple-card.jpg) no-repeat center center / cover;
     height: 580px;
     width: 100%;
