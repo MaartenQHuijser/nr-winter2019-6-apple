@@ -1,3 +1,5 @@
+@import url('fonts.css');
+
 html {
     box-sizing: border-box;
 }
@@ -9,8 +11,8 @@ html {
 }
 
 :root {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1, 4;
+    font-family: 'SF Pro Text', 'Helvetica', sans-serif;
+    line-height: 1.5;
     --blue: #06c;
 }
 
@@ -26,6 +28,31 @@ a {
 
 ul {
     list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.55rem;
+    line-height: 1.5;
+}
+
+.heading {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.description {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    margin-top: 4px;
 }
 
 .l-heading {
@@ -173,9 +200,17 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
+    padding: 1rem;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.item__grid {
+    text-align: center;
+    height: 80vh;
+    background-color: #fafafa;
+    padding-top: 6rem;
 }
 
 .items__grid .item__watch {
@@ -188,12 +223,14 @@ ul {
     background: url(../img/apple-tv.jpg) no-repeat center center / cover;
     height: 580px;
     width: 100%;
+    color: #fff;
 }
 
 .items__grid .item__album {
     background: url(../img/sky.jpg) no-repeat center center / cover;
     height: 580px;
     width: 100%;
+    color: #fff;
 }
 .items__grid .item__airpods {
     background: url(../img/airpods.jpg) no-repeat center bottom;
@@ -206,8 +243,55 @@ ul {
     height: 580px;
     width: 100%;
 }
+
 .items__grid .item__ipad {
     background: url(../img/apple-card.jpg) no-repeat center center / cover;
     height: 580px;
     width: 100%;
+}
+
+/* footer */
+.footer {
+    background: #f5f5f7;
+    color: #86868b;
+    font-size: 12px;
+}
+
+.footer .container {
+    width: 65%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.footer__menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+}
+
+.footer__menu .menu__item h2 {
+    font-size: 12px;
+}
+
+.footer__menu ul {
+    padding-left: 0;
+}
+
+.footer__menu .menu__item a {
+    color: #868688;
+}
+.footer__menu .menu__item a:hover {
+    text-decoration: underline;
+}
+
+.footer__menu-secondary {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: start;
+}
+
+.footer__menu-secondary ul {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
 }
